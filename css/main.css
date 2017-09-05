@@ -598,7 +598,32 @@ a.all-product:hover{
 .products-wrapper .item:hover .name-product{
 	color: #00c8c8;
 }
-
+.products-wrapper .hot, .products-wrapper .new{
+	position: absolute;
+	top: 15px;
+    left: -15px;
+	width: 50px;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	-moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    letter-spacing: 0.4px;
+} 
+.products-wrapper .hot span, .products-wrapper .new span{
+	display: block;
+	margin-top: 3px;
+}
+.products-wrapper .hot{
+	background: #ffff00;
+	color: #ff0000;
+}
+.products-wrapper .new{
+	background: #00c8c8;
+	color: #fff;
+}
 
 
 @media (max-width: 1179px){
