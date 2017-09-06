@@ -19,7 +19,11 @@ var setLang = $('.currency-select').data('location'),
       $('.currency-select li').removeClass('active');
       $(this).toggleClass('active');
 })
-$(".gamburger").on('click', function() {
-		$(this).toggleClass("on");
-		$('.mob-navigation').toggleClass("on");
+  $(".gamburger").on('click', function() {
+	$(this).toggleClass("on");
+	$('.mob-navigation').toggleClass("on");
+});
+  $('.mob-navigation a').on('click', function() {
+  $('.gamburger').toggleClass("on");
+  $('.mob-navigation').toggleClass("on");
 });
