@@ -235,9 +235,6 @@ ul{
 	height: 26px;
 	opacity: 0;
 }
-.header__second-line .serch input:hover{
-	opacity: 1;
-}
 .header__second-line .button-serch:hover{
 	cursor: pointer;
 }
@@ -799,7 +796,27 @@ a.all-product:hover{
 .join-our-email .your-email{
 	padding-left: 10px;
 }
-
+.footer{
+	float: left;
+	width: 100%;
+	height: 80px;
+	background: #31353d;
+}
+.social-line{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+.footer .logo{
+	background: url(../img/logo2.png) no-repeat;
+}
+.footer .social-item{
+	float: right;
+	margin: 22px 0 15px 30px;
+}
+.footer .social-item:hover{
+	opacity: 0.8;
+}
 /*---------------------MEDIA----------------------*/
 @media (max-width: 1179px){
 	.main-wraper{
@@ -917,6 +934,17 @@ a.all-product:hover{
 	.posts-wrapper{
 		width: 100%;
    		margin: 10px 0;
+	}
+	.footer .logo{
+		width: 100%;
+		margin: 18px 0 20px 0;
+	}
+	.footer{
+		height: 120px;
+	}
+	.footer .social-item{
+		margin: 26px 30px 15px 0;
+		float: none;
 	}
 
 }
